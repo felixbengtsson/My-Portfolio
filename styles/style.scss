@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7757, #e73c7d, #23a6d6, #23d5ac);
+  background-size: 400% 400%;
+  animation: backgroundAnimaton 15s ease infinite;
+}
+
+@keyframes backgroundAnimaton {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #eee;
+  font-weight: 100;
+}
